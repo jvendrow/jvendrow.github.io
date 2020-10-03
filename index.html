@@ -2,45 +2,226 @@
     <head>
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>website.html</title>
+        <title>Josh Vendrow</title>
         <link rel = "stylesheet"
         type = "text/css"
-        href = "index.css" />
+        href = "css/index.css" />
         <link rel="icon" href="./favicon.ico">
+        <script src="index.js"></script>
+
+        
+	    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/icomoon.css">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
     </head>
     <body>
         <center>
             <font size="4">
             <div class="main">
-                <div class="side">
-                    <div align="left" class="title">
-                     <h1>Josh Vendrow</h1>
+                <div class="leftbar">
+                    <center>
+                    <div align="center" class="title">
+                    <img src="./Josh_circle.jpg" alt="Josh" style="width:75%; margin-bottom:10px;  margin-left:5%;  margin-right:5%;  margin-top:17%; border-radius: 50%;">
+                    
+                    <h1 style="padding:0; margin-bottom:0;">Josh Vendrow</h1>
+                    <p style="font-family: 'Quicksand', Arial, sans-serif;"> Ugrad @ UCLA, CS/Math</p>
+
                     </div>
-                    <div align="left">
-                        <p><b>Email</b>: jvendrow AT ucla DOT edu <br></p>
-                        <p><a href="resume.pdf">[Resume]</a></p>
+
+                    <div class="links">
+                    
+                    <div align="center"><a class="example_a" href="resume.pdf" target="_blank" rel="nofollow noopener" style="margin-bottom:3%; margin-top:3%;">
+                             Resume &nbsp; <i class="fas fa-download" id="icon"></i>
+                    </a></div>
+
+                    <div align="center"><a class="example_a" href="mailto:jvendrow@gmail.com" target="_blank" rel="nofollow noopener" style="margin-bottom:3%">
+                            Email &nbsp; &nbsp;<i class="fas fa-envelope-open-text" id="icon"></i>
+                    </a></div>
+
+                    <div align="center"><a class="example_a" href="https://www.github.com/jvendrow" target="_blank" rel="nofollow noopener" style="margin-bottom:3%">
+                            Github &nbsp;<i class="fab fa-github" id="icon"></i>
+                    </a></div>
+                    <div align="center"><a class="example_a" href="https://www.linkedin.com/in/joshua-vendrow/" target="_blank" rel="nofollow noopener" style="margin-bottom:3%">
+                        Linkedin &nbsp;<i class="fab fa-linkedin-in" id="icon"></i>
+                    </a></div>
+
+                    <div align="center"><a class="example_a" href="https://scholar.google.com/citations?user=zQjuF5wAAAAJ&hl=en" target="_blank" rel="nofollow noopener">
+                            Scholar &nbsp;<i class="fas fa-graduation-cap" id="icon"></i>
+                    </a></div>
+
                     </div>
-                    <div align="left">
-                        <b><h2 class="title">About Me</h2></b>
-                        <p>I am a second year at UCLA double majoring in Computer Science and Mathematics, and a research assistant in UCLA Computational Applied Math Department. I am advised by <a href="https://www.math.ucla.edu/~jhaddock/"> Jamie Haddock </a> and <a href="https://www.math.ucla.edu/~deanna/"> Deanna Needell</a>.</p>
-                    </div>
+
+
+                    </center>
+                </div>
+                <div class="rightbar">
                      <div align="left">
-                        <b><h2 class="title">Research Interests</h2></b>
-                        <p>I am broadly interested in machine learning and deep learning. I am currently working on hirerchical Nonnegative Canonical Polyadic Decomposition (NNCPD), which is a generalization of hierarchical non-negative matrix factorization (NMF) to the tensor setting, using a neural network architecture. <br><br>I am also completing a project on applying machine learning methods to the MyLymeData dataset working with <a href="https://www.lymedisease.org/"> www.lymedisease.org</a>.</p>
-                     </div>
-                      <div align="left">
-                        <b><h2 class="title">Projects</h2></b>
-                        <p>Classifying Movement-Related EEG Data using Neural Networks <a href="eeg_report.pdf">[Report]</a></p>
-</p>
+                        <b><h2>About Me</h2></b>
+                        <p style="width:90%">I am a third year at UCLA double majoring in Computer Science and Mathematics with a minor in Philosophy, and I am a research assistant for the UCLA Computational Applied Math Department. I am advised by <a class="link" href="https://www.math.ucla.edu/~deanna/" target="_blank"> Deanna Needell</a>.
+                        <br><br>My current research areas are martix/tensor factorization, topic modeling, computer vision, and deep learning.
                      </div>
 
-                     <br>
-                     <p align="left">Check out <a href="https://edwardv.com/">Edward Vendrow</a></p>
+                    
+                     <div align="left" style="margin-top:5%">
+                        <b><h2 align="left">Publications</h2></b>
+
+                        <div style="float: right; margin-bottom:3%">
+                        <div class="pub_left">
+                            <img class="pub_img" src="./portfolio/neural_ncpd.png" alt="ncpd" style="width:90%;">
+                    
+                        </div>
+                        <div class="pub_right"> 
+                            "Neural Nonnegative CP Decomposition for Hierarchical Tensor Analysis" <br>
+                            By <b>J. Vendrow</b>, J. Haddock, and D. Needell. <br>
+                            Submitted, 2020.
+                        </div>
+
+                        </div>
+
+                        <div style="float: right; margin-bottom:3%">
+
+                        <div class="pub_left">
+                            <img class="pub_img" src="./portfolio/wsol.png" alt="wsol" style="width:90%;">
+                    
+                        </div>
+                        <div class="pub_right"> 
+                            "Weakly-Supervised Object Localization using Semi-Supervised Non-Negative Matrix Factorization." <br>
+                            By  E. Sizikova*, <b>J. Vendrow*</b>, R. Grotheer, J. Haddock, L. Kassab, A. Kryshchenko, T. Merkh, M. Rajapaksha, H. V. Vo, C. Wang, K. Leonard, and D. Needell. <br>
+                            Submitted, 2020. &nbsp; * Authors contributed equally.
+                        </div>
+                        </div>
+
+                        <div style="float: right; margin-bottom:3%">
+
+                        <div class="pub_left">
+                            <img class="pub_img" src="./portfolio/lyme.png" alt="wsol" style="width:90%;">
+                    
+                        </div>
+                        <div class="pub_right"> 
+                            "Feature Selection on Lyme Disease Patient Survey Data." <br>
+                            By <b>J. Vendrow</b>, J. Haddock, D. Needell, and L. Johnson. <br>
+                            arXiv preprint, 2020. &nbsp;<a class="link" target="_blank" href="https://arxiv.org/abs/2009.09087">[arXiv]</a>
+
+                        </div>
+                        </div>
+
+                        <div style="float: right; margin-bottom:3%">
+
+                        <div class="pub_left">
+                            <img class="pub_img" src="./portfolio/abx.png" alt="wsol" style="width:90%;">
+                    
+                        </div>
+                        <div class="pub_right"> 
+                            "Antibiotic Treatment Response In Persistent Lyme Disease: Why Do Some Patients Improve While Others Do Not?" <br>
+                            By L. Johnson, M. Shapiro, R. Stricker, <b>J. Vendrow</b>, J. Haddock, and D. Needell. <br>
+                            To appear in <i>Healthcare</i>, 2020.
+                        </div>
+                        </div>
+
+                        <div style="float: right; margin-bottom:3%">
+
+                        <div class="pub_left">
+                            <img class="pub_img" src="./portfolio/gene.png" alt="wsol" style="width:90%;">
+                    
+                        </div>
+                        <div class="pub_right"> 
+                            "On the Relation of Gene Essentiality to Intron Structure: A Computational and Deep Learning Approach." <br>
+                            By E. Schonfeld, E. Vendrow, <b>J. Vendrow</b>, and E. Schonfeld. <br>
+                            BioRxiv preprint, 2020. &nbsp;<a class="link" target="_blank" href="https://www.biorxiv.org/content/10.1101/2020.03.31.019125v1">[bioRxiv]</a>&nbsp;<a class="link" target="_blank" href="https://github.com/evendrow/Intron-Essentiality/">[Code]</a>&nbsp;
+                        </div>
+                        </div>
+
+                    </div>
+
+                    <div align="left" style="margin-top:3%;">
+                        <b><h2>Class Projects</h2></b>
+
+
+                        
+                        <div style="float: right; margin-bottom:3%">
+                        <div class="pub_left">
+                            <img class="pub_img" src="./portfolio/eeg.png" alt="eeg" style="width:90%;">
+                    
+                        </div>
+                        <div class="pub_right"> 
+                            ECE 247 (Deep Learning): Classifying Movement-Related EEG Data using Neural Networks <br><a class="link" target="_blank" href="ECE247/report.pdf">[Report]</a>&nbsp;<a class="link" target="_blank" href="https://github.com/jvendrow/EEG-Classification">[Code]</a> 
+                        </div>
+
+                        </div>
+
+                        <div style="float: right; margin-bottom:5%">
+
+                        <div class="pub_left">
+                            <img class="pub_img" src="./portfolio/rl.png" alt="rl" style="width:90%;">
+                    
+                        </div>
+                        <div class="pub_right"> 
+                        ECE 239AS (Reinforcement Learning): Applying Proximal Policy Optimization to OpenAI Environments <br><a class="link" target="_blank" href="ECE239/report.pdf">[Report]</a>&nbsp;<a class="link" target="_blank" href="ECE239/poster.pdf">[Poster]</a>&nbsp;<a class="link" target="_blank" href="https://github.com/rahulm/ece239-deepracer">[Code]</a>
+
+                        </div>
+                        </div>
+
+                    </div>
+                    
+
+                    <div align="left" style="margin-top:0%;">
+                         <b><h2>Software Development</h2></b>
+
+
+                         <div style="float: right; margin-bottom:4%">
+                        <div class="pub_left">
+                            <img src="./portfolio/fnnls_logo.png" alt="ncpd" style="width:90%;">
+                    
+                        </div>
+                        <div class="pub_right">
+                            <b>fnnls</b><br> An implementation of the Fast Nonnegative Least Squares algorithm.<br><a class="link" target="_blank" href="https://pypi.org/project/fnnls/">[PyPi]</a>&nbsp;<a class="link" target="_blank" href="https://github.com/jvendrow/fnnls">[Code]</a>
+                        </div>
+                        </div>
+
+                     </div>
+
+                     <div align="left" style="margin-top:0%; margin-bottom:5%">
+                         <b><h2>Selected Coursework</h2></b>
+
+                        <div class="courses">
+                            <b style="font-size:17px;"><u> Computer Science </u></b>
+                            <br> CS M226: ML for Bioinformatics
+                            <br> CS 181: Formal Languages and Automata
+                            <br> CS 146: Machine Learning
+                            <br> CS 180: Algorithms and Complexity
+                            <br> CS 111: Operating Systems
+                        </div>
+                        <div class="courses">
+                            <b style="font-size:17px;"><u>  Electrical Engineering </u></b>
+
+                            <br> EE 239AS: Reinforcement Learning
+                            <br> EE 247: Neural Nets and Deep Learning
+                            <br> EE 236A: Linear Programming
+                            <br> EE 133A: Applied Computing
+                            <br> EE 133B: Optimization
+                        </div>
+                        <div class="courses" style="margin-bottom:15px;">
+                            <b style="font-size:17px;"><u>  Mathematics </u></b>
+                            <br> Math 171: Stochastic Processes
+                            <br> Math 170A: Probability Theory I
+                            <br> Math 170B: Probability Theory II
+                            <br> Math 131A: Real Analysis I
+                            <br> Math 131B: Real Analysis II
+                            <br> Math 115A: Linear Algebra
+                        </div>
+                        <div></div>
+
+                     </div>
+                     <br><br>
 
                 </div>
-                <div class="image">
-                    <img src="./Josh.jpg" alt="Josh">
-                </div>
+
+
+
+
             <div>
         </center>
     </body>
