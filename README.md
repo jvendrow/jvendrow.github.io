@@ -1,2 +1,1 @@
-# jvendrow.github.io
-# jvendrow.github.io
+# www.joshvendrow.com
