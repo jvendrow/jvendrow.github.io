@@ -19,6 +19,12 @@ body {
     /*Titillium Web', "Geneva", 'Bookman', 'Didot', 'Optima', 'Bookman', 'Work Sans','Montserrat','Lora',"Geneva","Times New Roman", Times, serif;*/
 }
 
+ol {
+    display: inline-block; 
+    margin: 0px; 
+    padding-left: 10px;
+}
+
 
 .main{
     height: 100%;
@@ -28,7 +34,6 @@ body {
     display: table;
     table-layout: fixed;
     overflow: auto;
-
 }
 
 .leftbar{
