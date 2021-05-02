@@ -14,7 +14,8 @@ body {
   
   color: black;
   /*font-family: Palatino, serif;*/
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: 'Titillium Web', "Playfair Display", 'Roboto', 'Quicksand', sans-serif;
+
 
     /*Titillium Web', "Geneva", 'Bookman', 'Didot', 'Optima', 'Bookman', 'Work Sans','Montserrat','Lora',"Geneva","Times New Roman", Times, serif;*/
 }
@@ -37,7 +38,7 @@ ol {
 }
 
 .leftbar{
-     font-family: "Playfair Display";
+     font-family: "Playfair Display", 'Quicksand';
      background-color:#EFF2F7;
      text-align: center;
      float: left; 
@@ -166,6 +167,8 @@ h1 {
 }
 
 .pub_right {
+    font-family: Times, sans-serif, 'Roboto', "Quicksand", Arial, sans-serif !important;;
+
     font-size: min(1.4vw, 17px); /*17px;*/
     float: left;
     width: 72%;
