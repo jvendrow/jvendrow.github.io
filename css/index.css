@@ -26,7 +26,6 @@ ol {
     padding-left: 10px;
 }
 
-
 .main{
     height: 100%;
     width: 87%;
@@ -281,10 +280,12 @@ head, body{
 .pub_right {
     font-size: 14px;
     float: none;
-    width: 100%;
+    width: 98%;
     padding-bottom: 7%;
     padding-top: 4%;
     overflow-x: hidden;
+    padding-left: 2%;
+
 }
 
 .pub_left {
