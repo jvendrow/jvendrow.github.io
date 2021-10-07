@@ -20,6 +20,12 @@ body {
     /*Titillium Web', "Geneva", 'Bookman', 'Didot', 'Optima', 'Bookman', 'Work Sans','Montserrat','Lora',"Geneva","Times New Roman", Times, serif;*/
 }
 
+
+h1, h2, h3 {
+    font-family: 'Cardo', serif;
+    font-weight: bolder;
+}
+
 ol {
     display: inline-block; 
     margin: 0px; 
