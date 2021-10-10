@@ -172,7 +172,7 @@ h1 {
 }
 
 .pub_right {
-    font-family: Times, sans-serif, 'Roboto', "Quicksand", Arial, sans-serif !important;;
+    /*font-family: Times, sans-serif, 'Roboto', "Quicksand", Arial, sans-serif !important;*/
 
     font-size: min(1.4vw, 17px); /*17px;*/
     float: left;
