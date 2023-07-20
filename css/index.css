@@ -168,6 +168,7 @@ h1 {
 .pub_left {
      float: left; 
      width: min(24%, 210px);
+     padding-top: 6px;
 
 }
 
@@ -296,7 +297,7 @@ head, body{
 
 .pub_left {
      float: none; 
-     width: 75%;
+     width: 70%;
 
  }
 
