@@ -34,7 +34,7 @@ ol {
 
 .main{
     height: 100%;
-    width: 70%;
+    width: 80%;
     text-align: center;
     border-collapse: collapse;
     display: table;
@@ -58,7 +58,7 @@ ol {
     float: left;
     padding-top: 1%;
     width: 70%;
-    width: calc(100% - 315px);
+    width: calc(100% - 215px);
     padding-left:315px;
     margin-top: 10%;
     overflow-y: auto;
@@ -167,7 +167,7 @@ h1 {
 
 .pub_left {
      float: left; 
-     width: min(23%, 220px);
+     width: min(24%, 210px);
 
 }
 
